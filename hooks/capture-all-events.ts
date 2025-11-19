@@ -15,7 +15,7 @@ import { readFileSync, appendFileSync, mkdirSync, existsSync, writeFileSync } fr
 import { join } from 'path';
 import { homedir } from 'os';
 
-interface HookEvent {
+interface HookEvents {
   source_app: string;
   session_id: string;
   hook_event_type: string;
