@@ -7,7 +7,7 @@
  * Client dashboard: localhost:5173
  */
 
-export interface ObservabilityEvent {
+export interfacey ObservabilityEvent {
   source_app: string;
   session_id: string;
   hook_event_type: 'PreToolUse' | 'PostToolUse' | 'UserPromptSubmit' | 'Notification' | 'Stop' | 'SubagentStop' | 'SessionStart' | 'SessionEnd' | 'PreCompact';
